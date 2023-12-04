@@ -1,3 +1,7 @@
 # ER Diagram
 
-![Alt text](design/erd.png)
+![ERD](design/erd.png)
+
+# Database Schema
+
+![Schema](design/schema.png)
