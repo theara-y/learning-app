@@ -1,3 +1,3 @@
 # ER Diagram
 
-![Alt text](erd.png)
+![Alt text](design/erd.png)
