@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="S2bEjlNVgstlY1U5_wb0" name="Page-1">
+        <mxGraphModel dx="1130" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="&lt;h1&gt;GET /question&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Fetches question resources.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;Optional request parameters:&lt;/u&gt;&lt;br&gt;group_ids&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;progress filters&lt;br&gt;limit&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON list of requested question data.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="390" width="240" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;h1&gt;POST /question&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Creates question resources.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;group_id&lt;br&gt;questions_data&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Returns:&lt;/u&gt;&lt;br&gt;JSON of the newly created resource.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="390" width="220" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;h1&gt;PUT /question/{id}&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Updates a question resource.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;question_data&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Returns:&lt;/u&gt;&lt;br&gt;JSON of updated question.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="390" width="240" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;h1&gt;DELETE /question&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Delete question resources.&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;question_ids&lt;br&gt;&lt;br&gt;&lt;u&gt;Returns:&lt;/u&gt;&lt;br&gt;200 on success&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="390" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;h1&gt;POST /group&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Creates a group resource.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON of created group.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="600" width="170" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;h1&gt;PATCH /group/{id}&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Updates a group resource.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON of updated name.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="600" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;DELETE /group/{id}&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Deletes a group resource.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Returns:&lt;/u&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;200 on success.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="600" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h1&gt;GET /group?search={term}&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Fetches a list of groups.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON list of groups.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="600" width="320" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;h1&gt;POST /progress&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Creates progress resources.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;user_id&lt;br&gt;question_ids&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON of created progress resources.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="770" width="240" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;h1&gt;PATCH /progress&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Updates progress resources.&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_id&lt;br&gt;question_ids&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{ mastered | milestone &amp;amp; next_milestone }&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON of updated progress resources.&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="770" width="250" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;h1&gt;GET /user/{user_id}&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Fetches user data and user progress.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Return:&lt;br&gt;&lt;/u&gt;JSON of progress data&lt;br&gt;distinct groups&lt;br&gt;current progress per group&lt;br&gt;current sum/total sum&lt;br&gt;lowest milestone&lt;br&gt;highest milestone&lt;br&gt;10 earliest milestones&lt;br&gt;10 latest milestones&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;perimeterSpacing=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="160" width="240" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;h1&gt;GET /question/{id}&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Fetches question resource.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON list of requested question data.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="390" width="240" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;h1&gt;DELETE /user/{id}&lt;/h1&gt;&lt;h1&gt;&lt;b style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Delete user.&lt;/b&gt;&lt;/h1&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;200 on success.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="160" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;h1&gt;PATCH /user/{id}&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Updates a user resource.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON of user&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="160" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;h1&gt;POST /user&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Creates a user resource.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Request body:&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;u&gt;Return:&lt;/u&gt;&lt;br&gt;JSON of user.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="160" width="170" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

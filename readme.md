@@ -5,3 +5,7 @@
 # Database Schema
 
 ![Schema](design/schema.png)
+
+# API
+
+![API](design/api.png)
