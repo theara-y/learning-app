@@ -13,4 +13,10 @@ def create_app(config_class=Config):
     db.init_app(app)
     migrate.init_app(app, db)
 
+    from .api import users, groups, questions, progress
+    app.register_blueprint(users.bp)
+    app.register_blueprint(groups.bp)
+    app.register_blueprint(questions.bp)
+    app.register_blueprint(progress.bp)
+
     return app
