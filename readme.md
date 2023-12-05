@@ -1,3 +1,13 @@
+# Learning App
+
+A tool to improve the rate of learning.
+
+# Future Improvements
+
+- Simpler request validations
+- Simpler API endpoints
+- Frontend app
+
 # ER Diagram
 
 ![ERD](design/erd.png)
